@@ -265,11 +265,7 @@ void IrcBot::sendPong(char *buf)
 
 void IrcBot::msgHandel(char * buf)
 {
-	/*
-	 * TODO: add you code to respod to commands here
-	 * the example below replys to the command hi scooby
-	 */
-
+	
     //starting bot
     if (charSearch(buf,"PRIVMSG #lobby :!bytetrial") && !botstarted)
 	{
